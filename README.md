@@ -6,4 +6,4 @@ Main changes to the site include changing tags to be more descriptive, consolida
 ![Top Half of Site](assets/images/top-half.png)
 ![Bottom Half of Site](assets/images/bottom-half.png)
 
-Link to the application: https://old-prego.github.io/marketing-accessibility/#search-engine-optimization
+Link to the application: https://old-prego.github.io/marketing-accessibility/
