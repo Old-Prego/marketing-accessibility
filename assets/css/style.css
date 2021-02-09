@@ -1,9 +1,11 @@
+/* Sets the entire document to have border-box sizing to make it fit better on the screen, and 0 margin/padding by default so we know what we're working with */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* General background color of entire document */
 body {
     background-color: #d9dcd6;
 }
@@ -27,7 +29,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/*  */
+/* Applies fonts, margin and padding, font size, and positioning via float to the header navbar links */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,24 +38,29 @@ header nav {
     font-size: 20px;
 }
 
+/* Gets rid of any normal list styling, like bullet points */
 header nav ul {
     list-style-type: none;
 }
 
+/* Makes the navbar links show up as a horizontal list instead of vertical, and makes sure there is spacing between them */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Gets rid of any typical link styling like being blue and having an underline, and assigns it the same color as the rest of the page */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* General paragraph font size */
 p {
     font-size: 16px;
 }
 
+/* Styles background image for the main figure on the page. Sets the sizing to fill up the entire space and centers it. */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* Used for floating some of the article images to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Used for floating some of the article images to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styles the main section with articles to fit the left 3/4 of the screen */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Makes the aside float right and applies general styling like font, size, padding, and colors */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -90,22 +101,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* Separates the individual sections of the aside and sets the text color to white */
 aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Centers the headers of the aside sections and gives it a bit more space */
 aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Makes sure that the images provide line breaks before and after, and sets a maximum width */
 aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Formats the section article spacing, size, fonts, background color, and font color */
 section article {
     margin-bottom: 20px;
     padding: 50px;
@@ -115,15 +130,18 @@ section article {
     color: #ffffff;
 }
 
-section img {
+/* Sets the image max height for images in the section articles */
+section article img {
     max-height: 200px;
 }
 
-section h2 {
+/* Styles the headers to be larger than a normal h2, and gives them more space vertically */
+section article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Clears any flex arrangements so that the footer stays at the bottom and set the text alignment, font, and padding for it. */
 footer {
     padding: 30px;
     clear: both;
